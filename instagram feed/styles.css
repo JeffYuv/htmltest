@@ -1,0 +1,93 @@
+* {
+  font-family: verdana;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  height: 100px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.logo {
+  align-self: center;
+  background-color: rgb(246, 245, 242);
+  padding-right: 500px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  background: linear-gradient(
+    330deg,
+    #99e052 25%,
+    #52e0e0 50%,
+    #9952e0 70%,
+    #e05252 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box {
+  height: 550px;
+  width: 500px;
+  align-self: center;
+  margin-bottom: 80px;
+  background: rgb(246, 245, 242);
+}
+
+.one {
+  margin-top: 100px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  height: 400px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.caption {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.tags {
+  color: #3f729b;
+  margin-left: 10px;
+}
+
+.like {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.share {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 43px;
+  left: 40px;
+}
